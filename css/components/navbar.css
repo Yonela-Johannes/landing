@@ -1,0 +1,153 @@
+.list-inline > li{
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.navListOne{
+  display: flex;
+  margin: 20px
+}
+i.icon{
+  color: #1D2737;
+  opacity: .8;
+  transition: .2s ease;
+}
+
+i.icon:hover{
+  color: black;
+  opacity: 1;
+}
+
+.static-navbar{
+  position: static;
+  width: 100%;
+  top: 0;
+  transition: .2s ease;
+  z-index: 20;
+  padding: 5px 10px;
+}
+.nav-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.item-container{
+  display: none;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px 10px;
+}
+.nav-wrapper .job-title{
+  display: none;
+}
+
+.item{
+  color: var(--pcl-s);
+}
+
+.routing a{
+  padding: 10px 20px;
+  color: var(--p-cl-alt);
+  cursor: pointer;
+  transition: .3s ease;
+  border-radius: 10px;
+}
+
+.routing a:hover{
+  color: var(--body-bg);
+  background-color: var(--p-cl-alt);
+}
+
+.routing a:focus{
+  color: var(--body-bg);
+  background-color: var(--p-cl-alt);
+}
+
+.logo{
+width: 35px;
+}
+
+.landing {
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  margin-bottom: 30px;
+}
+.landing-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+
+.landing-right{
+  display: flex;
+  align-items: center;
+  /* flex-direction: column; */
+  justify-content: center;
+  flex: 1;
+}
+.landing-button{
+background-color: var(--p-cl-alt);
+font-size: 16px;
+width: 260px;
+}
+.landing-img {
+  width: 240px;
+  height: 240px;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+.landing-intro {
+  font-size: 16px;
+  color: var(--p-cl-alt);
+  /* font-weight: 300; */
+}
+
+.landing-name {
+  font-size: 25px;
+  color: var(--p-cl-s);
+}
+
+.landing-title {
+  height: 50px;
+  overflow: hidden;
+}
+.landing-desc {
+  width: 240px;
+  margin: 10px 0;
+  font-size: 16px;
+  text-align: start;
+  font-style: italic;
+}
+
+i.icon{
+  width: 28px;
+}
+
+.linked-in{
+  width: 23px;
+}
+
+.logo-landing{
+  width: 100%;
+  margin: 0 auto;
+}
+
+.landing-desc span{
+  color: rgb(60, 60, 60);
+  font-style: normal;
+  font-size: 14px;
+}
+
+.landing-title-wrapper {
+  height: 100%;
+  animation: move 3s ease-in-out infinite alternate;
+}

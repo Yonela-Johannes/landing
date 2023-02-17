@@ -1,0 +1,38 @@
+.banner {
+  display: flex;
+  height: 70%;
+  align-items: center;
+  justify-content: flex-start;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+  color: white;
+  background-color: #1D2737;
+  text-shadow: 1px 1px 2px black;
+}
+
+.banner h1 {
+  font-size: 45px;
+  margin-bottom: 10px;
+}
+
+.banner p{
+  margin-bottom: 40px;
+  font-size: 23px;
+}
+
+.hero{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  background-color: white;
+}
+@media (max-width: 720px) {
+  .banner{
+    padding: 20px;
+    height:100%;
+  }
+}
