@@ -1,6 +1,6 @@
 .banner {
   display: flex;
-  height: 70%;
+  height: 500px;
   align-items: center;
   justify-content: flex-start;
   background-repeat: no-repeat;
@@ -8,6 +8,7 @@
   background-position: right;
   color: white;
   background-color: #1D2737;
+  margin-bottom: 50px;
   text-shadow: 1px 1px 2px black;
 }
 
@@ -19,20 +20,4 @@
 .banner p{
   margin-bottom: 40px;
   font-size: 23px;
-}
-
-.hero{
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: right;
-  background-color: white;
-}
-@media (max-width: 720px) {
-  .banner{
-    padding: 20px;
-    height:100%;
-  }
 }

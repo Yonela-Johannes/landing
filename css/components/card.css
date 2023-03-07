@@ -4,17 +4,15 @@
   margin: 0 auto;
   align-items: flex-start;
   justify-content: space-between;
-  padding: 20px;
 }
 
 .card{
-  width: 300px;
+
 }
 
 .card img{
   width: 300px;
   height: 200px;
-  border-radius: 5px;
 }
 
 .card img.icon{
@@ -27,11 +25,4 @@
 
 .card p {
 
-}
-
-@media (max-width: 720px) {
-  .cards{
-   flex-direction: column;
-   align-items: center;
-  }
 }
